@@ -1,0 +1,15 @@
+{
+  "name": "promise-one-success",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/index.js"
+  },
+  "keywords": [],
+  "author": "Steven Zeiler",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^8.3.0"
+  }
+}
