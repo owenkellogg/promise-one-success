@@ -1,8 +1,12 @@
 {
   "name": "promise-one-success",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
+  "repository": {
+    "url": "https://github.com/stevenzeiler/promise-one-success",
+    "type": "git"
+  },
   "scripts": {
     "test": "mocha test/index.js"
   },
