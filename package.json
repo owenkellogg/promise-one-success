@@ -1,6 +1,6 @@
 {
   "name": "promise-one-success",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Typescript-friendly promise that resolves with the first successful promise",
   "main": "dist/index.js",
   "repository": {
