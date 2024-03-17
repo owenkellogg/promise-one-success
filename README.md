@@ -28,7 +28,7 @@ yarn add promise-one-success
 Here's a basic example of how to use `promise-one-success`:
 
 ```javascript
-import { oneSuccess } from 'promise-one-success';
+import oneSuccess from 'promise-one-success';
 
 const promise1 = new Promise((resolve, reject) => setTimeout(reject, 100, 'First fails'));
 const promise2 = new Promise((resolve, reject) => setTimeout(resolve, 200, 'Second succeeds'));
@@ -53,7 +53,7 @@ Accepts an array of promises and returns a new promise that resolves as soon as 
 `promise-one-success` includes TypeScript definitions. When using TypeScript, you can take advantage of strong typing as shown below:
 
 ```typescript
-import { oneSuccess } from 'promise-one-success';
+import oneSuccess from 'promise-one-success';
 
 async function fetchDataFromMirrors(): Promise<string> {
   const mirrors: Promise<string>[] = [
