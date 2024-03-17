@@ -1,19 +1,22 @@
 {
   "name": "promise-one-success",
-  "version": "1.0.1",
-  "description": "",
-  "main": "index.js",
+  "version": "1.1.0",
+  "description": "Typescript-friendly promise that resolves with the first successful promise",
+  "main": "dist/index.js",
   "repository": {
-    "url": "https://github.com/stevenzeiler/promise-one-success",
+    "url": "https://github.com/owenkellogg/promise-one-success",
     "type": "git"
   },
   "scripts": {
-    "test": "mocha test/index.js"
+    "test": "jest",
+    "build": "tsc"
   },
   "keywords": [],
-  "author": "Steven Zeiler",
+  "author": "Owen Kellogg",
   "license": "ISC",
   "devDependencies": {
-    "mocha": "^8.3.0"
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2"
   }
 }
